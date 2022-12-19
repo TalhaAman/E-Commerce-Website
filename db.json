@@ -1,0 +1,620 @@
+{
+	"users": [
+		{
+			"email": "paulacucuk@test.com",
+			"password": "$2a$10$tMnH3Oumf/HzknuW6pXTo.D2RbScsHD3CyySQSthaaHTdJILAhzNW",
+			"id": 1,
+			"name": "Paula Cucuk"
+		},
+		{
+			"password": "$2a$10$chDpsUAE8LIBcO/BQKf7EOrDaCkS4PomvLgq.KMiScw.HP1HudrL2",
+			"id": 2,
+			"name": "Aleksandar Askovic",
+			"email": "aleksandaraskovic@test.com"
+		},
+		{
+			"email": "julianmollema@test.com",
+			"name": "Julian Mollema",
+			"password": "$2a$10$2couoCxDodoecXmLAtdGsOfaDV4KTl1nf5x3L7rhoa7SeBY4zkVpq",
+			"id": 3
+		},
+		{
+			"email": "narakasbergen@test.com",
+			"name": "Nara Kasbergen",
+			"password": "$2a$10$2couoCxDodoecXmLAtdGsOfaDV4KTl1nf5x3L7rhoa7SeBY4zkVpq",
+			"id": 4
+		},
+		{
+			"email": "srdjanvranac@test.com",
+			"name": "Srdjan Vranac",
+			"password": "$2a$10$2couoCxDodoecXmLAtdGsOfaDV4KTl1nf5x3L7rhoa7SeBY4zkVpq",
+			"id": 5
+		},
+		{
+			"email": "calevans@test.com",
+			"name": "Cal Evans",
+			"password": "$2a$10$2couoCxDodoecXmLAtdGsOfaDV4KTl1nf5x3L7rhoa7SeBY4zkVpq",
+			"id": 6
+		},
+		{
+			"email": "keneudeze@test.com",
+			"name": "Kene Udeze",
+			"password": "$2a$10$2couoCxDodoecXmLAtdGsOfaDV4KTl1nf5x3L7rhoa7SeBY4zkVpq",
+			"id": 7
+		},
+		{
+			"email": "pimelshoff@test.com",
+			"name": "Pim Elshoff",
+			"password": "$2a$10$2couoCxDodoecXmLAtdGsOfaDV4KTl1nf5x3L7rhoa7SeBY4zkVpq",
+			"id": 8
+		},
+		{
+			"email": "johndoe@test.com",
+			"name": "John Doe",
+			"password": "$2a$10$2couoCxDodoecXmLAtdGsOfaDV4KTl1nf5x3L7rhoa7SeBY4zkVpq",
+			"id": 9
+		},
+		{
+			"email": "saravieira@test.com",
+			"name": "Sara Vieira",
+			"password": "$2a$10$2couoCxDodoecXmLAtdGsOfaDV4KTl1nf5x3L7rhoa7SeBY4zkVpq",
+			"id": 10
+		},
+		{
+			"email": "michieldewit@test.com",
+			"name": "Michiel de Wit",
+			"password": "$2a$10$2couoCxDodoecXmLAtdGsOfaDV4KTl1nf5x3L7rhoa7SeBY4zkVpq",
+			"id": 11
+		},
+		{
+			"email": "harryroberts@test.com",
+			"name": "Harry Roberts",
+			"password": "$2a$10$2couoCxDodoecXmLAtdGsOfaDV4KTl1nf5x3L7rhoa7SeBY4zkVpq",
+			"id": 12
+		}
+	],
+	"workshops": [
+		{
+			"id": 1,
+			"title": "When you get lost in API testing",
+			"desc": "The toughest part is probably to figure out which type of tests to write and how to test some specific logic in your app - but don't give up! Paula will present a few tips she learned along the way that will hopefully make your life easier. In this talk, you will hear about different test types and when to use them, real examples based on PHPUnit and Postman, followed by some tools for checking the test quality",
+			"price": 350,
+			"date": "2020-01-26T13:51:50.417-07:00",
+			"category": "backend",
+			"userId": 1,
+			"imageUrl": "https://pbs.twimg.com/media/EREoip3XsAEPDRp.jpg"
+		},
+		{
+			"id": 2,
+			"title": "YouTube for your business!",
+			"desc": "Aleksandar Ašković aka Kojot is one of the pioneers when it comes to regional YouTube expertise. His tech journey started at the age of 12 when he inserted the first coin into the arcade machine. In 1997 he becomes editor of the renowned Serbian magazine “Svet Kompjutera” and in 2001 he started his first TV show called Game Over. After that, it was time to become a bit serious so in 2019 KursorTV was born, a TV show that was covering mostly tech topics. In 2014 Aleksandar decided to make a switch in his career and dedicate his time to YouTube. During the last 5 years, he was focused on helping brands utilize this platform to a full extent. Kojot considers YouTube channel of “Sport Klub” the prime example of YouTube SEO power. Thanks to the great content and good optimization Sport Klub channel reached[masked] subscribers in under 18 months.",
+			"price": 400,
+			"date": "2019-12-26T13:51:50.417-07:00",
+			"category": "marketing",
+			"userId": 2,
+			"imageUrl": "https://pbs.twimg.com/media/EL--sgSXYAAnOX2.jpg"
+		},
+		{
+			"title": "Voice - The new Frontend",
+			"desc": "Nara Kasbergen knows a lot about the subject since she is the lead engineer for voice interfaces and emerging platforms at National Public Radio (NPR). We got Nara to Tinel Meetup to cover the many things she learned along the way, including what voice UI development is and isn't. We'll go over the core strategy for building a voice app for platforms like Alexa and Google using JavaScript, as well as discuss limitations of the current tech and predictions for how it will evolve in the future. Finally, she will touch upon some essential skills that a developer in this space should possess, so that you'll feel prepared to enter the voice UI space, whether you're planning to start working with it tomorrow or a decade from now.",
+			"price": 375,
+			"category": "frontend",
+			"date": "2020-07-02T22:00:00.000Z",
+			"imageUrl": "https://secure.meetupstatic.com/photos/event/2/d/8/e/highres_482651662.jpeg",
+			"userId": 4,
+			"id": 3
+		},
+		{
+			"id": 4,
+			"title": "Fighting E-Commerce Sameness",
+			"desc": "Online shopping behaviour is usually based on emotion which is mostly triggered by originality and can’t be quantified by statistics. Everyone knows that, but still, there is an alarming situation happening in the world of E-commerce. Online shopping is ruled by overthought designs that are based on statistics that eventually result in every webshop being the same. At the 30th edition of Tinel that's taking place in late November, ICT županija helped us bring Julian Mollema, lead designer from one of the top Dutch digital agencies - Build in Amsterdam.",
+			"price": 450,
+			"date": "2020-02-21T13:51:50.417-07:00",
+			"category": "marketing",
+			"userId": 3,
+			"imageUrl": "https://secure.meetupstatic.com/photos/event/2/d/8/e/highres_482651662.jpeg"
+		},
+		{
+			"id": 6,
+			"title": "Be nice! Help the person who hacks your servers to get data",
+			"desc": "Even in the age where data and privacy became mainstream buzzwords, some agencies and developers are still not paying attention. Primary AWS keys are often shared among devs, SSH keys from former employees are still being kept on servers, credentials are sometimes stored into .env files, or even worse - config files. Let's talk about data and privacy - again. The 27th edition of Tinel is scheduled for the 22nd of August, featuring an interesting talk by Code4hire's founder Srdjan Vranac who will address the technical side of data storage. Srdjan thinks that secrets and credentials management is probably the most overlooked aspect of any app, so we got him to Tinel to show you a few useful tips, tricks and tools that can help you achieve a decent level of security on your application.",
+			"price": 500,
+			"date": "2020-02-21T13:51:50.417-07:00",
+			"category": "backend",
+			"userId": 5,
+			"imageUrl": "https://secure.meetupstatic.com/photos/event/2/d/8/e/highres_482651662.jpeg"
+		},
+		{
+			"id": 5,
+			"title": "Leadership as a joke",
+			"desc": "Cal Evans is author of five Leanpub books, Signaling PHP, Iterating PHP Iterators, Going Pro, Culture of Respect, and Uncle Cal’s Career Advice to Developers. After 15 years of work with MySQL and PHP - he switched his focus on building (better) developers through dev trainings in EICC, Zend, and Kony Solutions.",
+			"price": 500,
+			"date": "2020-04-27T13:51:50.417-07:00",
+			"category": "backend",
+			"userId": 6,
+			"imageUrl": "https://secure.meetupstatic.com/photos/event/2/d/8/e/highres_482651662.jpeg"
+		},
+		{
+			"id": 7,
+			"title": "Data-driven design",
+			"desc": "The commonly assumed meaning of Data in the context of a digital product is the information provided/inputted by users - well, this is not the whole truth. The talk, Data-driven Design is an exploration of ways designers can source data that can impact the product design process and possibly improve business outcomes. This talk is for all aspiring designers and digital experts that would like to learn more from a person with a huge experience in building projects, products, and even communities!",
+			"price": 650,
+			"date": "2020-05-23T13:51:50.417-07:00",
+			"category": "design",
+			"userId": 7,
+			"imageUrl": "https://secure.meetupstatic.com/photos/event/2/d/8/e/highres_482651662.jpeg"
+		},
+		{
+			"id": 8,
+			"title": "From conversation to software",
+			"desc": "In his soft-skill talk called “From Conversation to Software”, we'll take a look at how you can help people solve their problems and grasp their opportunities. We will write user stories that help you understand their problems. We will use story mapping to create meaningful and insightful choices for your clients. Finally, we'll use release planning to predict and plan, together, where the project will end up. Join us the 26th edition of Tinel Meetup and find out how you can turn the conversation into software.",
+			"price": 350,
+			"date": "2020-06-23T13:51:50.417-07:00",
+			"category": "frontend",
+			"userId": 8,
+			"imageUrl": "https://rep.hr/media/cache/fe_homepage_profile/images/upload/87/tinel26.png"
+		},
+		{
+			"id": 9,
+			"title": "Testing the frontend",
+			"desc": "Among all of the shining accomplishments, the improvement in testing methodology and tools is the most encouraging. For years, front-end testing seemed to me like a glorious castle in the sky. No matter how desperately I tried to apply the existing testing methods, none were suitable to test front-end codes, and the meek test results after arduous testing procedures left me insatiable. However, recently emerging tools are providing developers with excellent solutions to the problems of the past, as if to boast the experience gained through years of trial and error.",
+			"price": 450,
+			"date": "2020-07-23T13:51:50.417-07:00",
+			"category": "frontend",
+			"userId": 9,
+			"imageUrl": "https://secure.meetupstatic.com/photos/event/2/d/8/e/highres_482651662.jpeg"
+		},
+		{
+			"id": 10,
+			"title": "The New React Way",
+			"desc": "Our guest is the Front-end developer and React superstar Sara Vieira who will host a talk on the new way to approach React development. React is a great tool to allow developers and designers to collaborate and build amazing apps and components together. This workshop is directed at people that have no experience with React to get them ready to build React components.",
+			"price": 350,
+			"date": "2020-02-23T13:51:50.417-07:00",
+			"category": "frontend",
+			"userId": 10,
+			"imageUrl": "https://secure.meetupstatic.com/photos/event/5/4/c/f/600_477021711.jpeg"
+		},
+		{
+			"id": 11,
+			"title": "Grey hairs in IT",
+			"desc": "How do older developers fit in with the younger generation? Will they be able to continue developing software until their pension? What are the prospects for older developers? Do they have to start looking out for a job outside the field? Or can they put their grey hairs to their (and the team's) advantage? We’ve got Michiel de Wit to answer all of those questions in a single talk. He will show examples of older developers on what they actually did, and how they managed to stay relevant. He will question the traditional Developer – Team lead – Project leader career path and show how Agile actually opens up a whole new set of possibilities.",
+			"price": 450,
+			"date": "2020-02-23T13:51:50.417-07:00",
+			"category": "marketing",
+			"userId": 11,
+			"imageUrl": "https://secure.meetupstatic.com/photos/event/7/d/5/b/600_479192091.jpeg"
+		},
+		{
+			"id": 12,
+			"title": "Web Performance Optimization",
+			"desc": "At the upcoming Tinel on Thursday, our guest will host a LIVE Web Performance Optimization session. We will move away from the classic presentation format as Harry will be doing live coding on the spot, helping you to enhance the website speed. You can expect a lot of tips and tricks from one of the best industry experts who worked for Google, UN, Etsy, BBC, and more. The event is taking place on the 30th of May, we strongly suggest that you confirm your place as soon as possible - you’re in for a treat!",
+			"price": 450,
+			"date": "2020-05-30T13:51:50.417-07:00",
+			"category": "marketing",
+			"userId": 12,
+			"imageUrl": "https://secure.meetupstatic.com/photos/event/2/d/8/e/highres_482651662.jpeg"
+		}
+	],
+	"orders": [
+		{
+			"products": {
+				"items": [
+					{
+						"id": 2,
+						"imageUrl": "https://pbs.twimg.com/media/EL--sgSXYAAnOX2.jpg",
+						"title": "YouTube for your business!",
+						"price": 400,
+						"quantity": 35,
+						"totalPrice": 14000
+					},
+					{
+						"id": 1,
+						"imageUrl": "https://pbs.twimg.com/media/EREoip3XsAEPDRp.jpg",
+						"title": "When you get lost in API testing",
+						"price": 350,
+						"quantity": 22,
+						"totalPrice": 7700
+					},
+					{
+						"id": 4,
+						"imageUrl": "https://secure.meetupstatic.com/photos/event/2/d/8/e/highres_482651662.jpeg",
+						"title": "Fighting E-Commerce Sameness",
+						"price": 450,
+						"quantity": 2,
+						"totalPrice": 900
+					}
+				],
+				"totalQuantity": 59,
+				"totalCartPrice": 22600
+			},
+			"totalPrice": 22600,
+			"id": 1
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 2,
+						"imageUrl": "https://pbs.twimg.com/media/EL--sgSXYAAnOX2.jpg",
+						"title": "YouTube for your business!",
+						"price": 400,
+						"quantity": 57,
+						"totalPrice": 22800
+					},
+					{
+						"id": 1,
+						"imageUrl": "https://pbs.twimg.com/media/EREoip3XsAEPDRp.jpg",
+						"title": "When you get lost in API testing",
+						"price": 350,
+						"quantity": 22,
+						"totalPrice": 7700
+					},
+					{
+						"id": 4,
+						"imageUrl": "https://secure.meetupstatic.com/photos/event/2/d/8/e/highres_482651662.jpeg",
+						"title": "Fighting E-Commerce Sameness",
+						"price": 450,
+						"quantity": 2,
+						"totalPrice": 900
+					}
+				],
+				"totalQuantity": 81,
+				"totalCartPrice": 31400
+			},
+			"totalPrice": 31400,
+			"id": 2
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 1,
+						"imageUrl": "https://pbs.twimg.com/media/EREoip3XsAEPDRp.jpg",
+						"title": "When you get lost in API testing",
+						"price": 350,
+						"quantity": 1,
+						"totalPrice": 350
+					}
+				],
+				"totalQuantity": 1,
+				"totalCartPrice": 350
+			},
+			"totalPrice": 350,
+			"id": 3
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 2,
+						"imageUrl": "https://pbs.twimg.com/media/EL--sgSXYAAnOX2.jpg",
+						"title": "YouTube for your business!",
+						"price": 400,
+						"quantity": 1,
+						"totalPrice": 400
+					}
+				],
+				"totalQuantity": 1,
+				"totalCartPrice": 400
+			},
+			"totalPrice": 400,
+			"id": 4
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 1,
+						"imageUrl": "https://pbs.twimg.com/media/EREoip3XsAEPDRp.jpg",
+						"title": "When you get lost in API testing",
+						"price": 350,
+						"quantity": 1,
+						"totalPrice": 350
+					}
+				],
+				"totalQuantity": 1,
+				"totalCartPrice": 350
+			},
+			"totalPrice": 350,
+			"id": 5
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 1,
+						"imageUrl": "https://pbs.twimg.com/media/EREoip3XsAEPDRp.jpg",
+						"title": "When you get lost in API testing",
+						"price": 350,
+						"quantity": 1,
+						"totalPrice": 350
+					}
+				],
+				"totalQuantity": 1,
+				"totalCartPrice": 350
+			},
+			"totalPrice": 350,
+			"id": 6
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 1,
+						"imageUrl": "https://pbs.twimg.com/media/EREoip3XsAEPDRp.jpg",
+						"title": "When you get lost in API testing",
+						"price": 350,
+						"quantity": 1,
+						"totalPrice": 350
+					}
+				],
+				"totalQuantity": 1,
+				"totalCartPrice": 350
+			},
+			"totalPrice": 350,
+			"id": 7
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 1,
+						"imageUrl": "https://pbs.twimg.com/media/EREoip3XsAEPDRp.jpg",
+						"title": "When you get lost in API testing",
+						"price": 350,
+						"quantity": 1,
+						"totalPrice": 350
+					}
+				],
+				"totalQuantity": 1,
+				"totalCartPrice": 350
+			},
+			"totalPrice": 350,
+			"id": 8
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 1,
+						"imageUrl": "https://pbs.twimg.com/media/EREoip3XsAEPDRp.jpg",
+						"title": "When you get lost in API testing",
+						"price": 350,
+						"quantity": 1,
+						"totalPrice": 350
+					}
+				],
+				"totalQuantity": 1,
+				"totalCartPrice": 350
+			},
+			"totalPrice": 350,
+			"id": 9
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 1,
+						"imageUrl": "https://pbs.twimg.com/media/EREoip3XsAEPDRp.jpg",
+						"title": "When you get lost in API testing",
+						"price": 350,
+						"quantity": 1,
+						"totalPrice": 350
+					}
+				],
+				"totalQuantity": 1,
+				"totalCartPrice": 350
+			},
+			"totalPrice": 350,
+			"id": 10
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 1,
+						"imageUrl": "https://pbs.twimg.com/media/EREoip3XsAEPDRp.jpg",
+						"title": "When you get lost in API testing",
+						"price": 350,
+						"quantity": 1,
+						"totalPrice": 350
+					}
+				],
+				"totalQuantity": 1,
+				"totalCartPrice": 350
+			},
+			"totalPrice": 350,
+			"id": 11
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 2,
+						"imageUrl": "https://pbs.twimg.com/media/EL--sgSXYAAnOX2.jpg",
+						"title": "YouTube for your business!",
+						"price": 400,
+						"quantity": 1,
+						"totalPrice": 400
+					},
+					{
+						"id": 1,
+						"imageUrl": "https://pbs.twimg.com/media/EREoip3XsAEPDRp.jpg",
+						"title": "When you get lost in API testing",
+						"price": 350,
+						"quantity": 1,
+						"totalPrice": 350
+					},
+					{
+						"id": 10,
+						"imageUrl": "https://secure.meetupstatic.com/photos/event/5/4/c/f/600_477021711.jpeg",
+						"title": "The New React Way",
+						"price": 350,
+						"quantity": 1,
+						"totalPrice": 350
+					},
+					{
+						"id": 6,
+						"imageUrl": "https://secure.meetupstatic.com/photos/event/2/d/8/e/highres_482651662.jpeg",
+						"title": "Be nice! Help the person who hacks your servers to get data",
+						"price": 500,
+						"quantity": 1,
+						"totalPrice": 500
+					},
+					{
+						"id": 5,
+						"imageUrl": "https://secure.meetupstatic.com/photos/event/2/d/8/e/highres_482651662.jpeg",
+						"title": "Leadership as a joke",
+						"price": 500,
+						"quantity": 1,
+						"totalPrice": 500
+					},
+					{
+						"id": 7,
+						"imageUrl": "https://secure.meetupstatic.com/photos/event/2/d/8/e/highres_482651662.jpeg",
+						"title": "Data-driven design",
+						"price": 650,
+						"quantity": 1,
+						"totalPrice": 650
+					}
+				],
+				"totalQuantity": 6,
+				"totalCartPrice": 2750
+			},
+			"totalPrice": 2750,
+			"id": 12
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 4,
+						"imageUrl": "https://secure.meetupstatic.com/photos/event/2/d/8/e/highres_482651662.jpeg",
+						"title": "Fighting E-Commerce Sameness",
+						"price": 450,
+						"quantity": 1,
+						"totalPrice": 450
+					}
+				],
+				"totalQuantity": 1,
+				"totalCartPrice": 450
+			},
+			"totalPrice": 450,
+			"id": 13
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 4,
+						"imageUrl": "https://secure.meetupstatic.com/photos/event/2/d/8/e/highres_482651662.jpeg",
+						"title": "Fighting E-Commerce Sameness",
+						"price": 450,
+						"quantity": 1,
+						"totalPrice": 450
+					}
+				],
+				"totalQuantity": 1,
+				"totalCartPrice": 450
+			},
+			"totalPrice": 450,
+			"id": 14
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 1,
+						"imageUrl": "https://pbs.twimg.com/media/EREoip3XsAEPDRp.jpg",
+						"title": "When you get lost in API testing",
+						"price": 350,
+						"quantity": 23,
+						"totalPrice": 8050
+					}
+				],
+				"totalQuantity": 23,
+				"totalCartPrice": 8050
+			},
+			"totalPrice": 8050,
+			"id": 15
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 1,
+						"imageUrl": "https://pbs.twimg.com/media/EREoip3XsAEPDRp.jpg",
+						"title": "When you get lost in API testing",
+						"price": 350,
+						"quantity": 1,
+						"totalPrice": 350
+					}
+				],
+				"totalQuantity": 1,
+				"totalCartPrice": 350
+			},
+			"totalPrice": 350,
+			"id": 16
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 1,
+						"imageUrl": "https://pbs.twimg.com/media/EREoip3XsAEPDRp.jpg",
+						"title": "When you get lost in API testing",
+						"price": 350,
+						"quantity": 1,
+						"totalPrice": 350
+					}
+				],
+				"totalQuantity": 1,
+				"totalCartPrice": 350
+			},
+			"totalPrice": 350,
+			"id": 17
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 2,
+						"imageUrl": "https://pbs.twimg.com/media/EL--sgSXYAAnOX2.jpg",
+						"title": "YouTube for your business!",
+						"price": 400,
+						"quantity": 1,
+						"totalPrice": 400
+					}
+				],
+				"totalQuantity": 1,
+				"totalCartPrice": 400
+			},
+			"totalPrice": 400,
+			"id": 18
+		},
+		{
+			"products": {
+				"items": [
+					{
+						"id": 3,
+						"imageUrl": "https://secure.meetupstatic.com/photos/event/2/d/8/e/highres_482651662.jpeg",
+						"title": "Voice - The new Frontend",
+						"price": 375,
+						"quantity": 3,
+						"totalPrice": 1125
+					}
+				],
+				"totalQuantity": 3,
+				"totalCartPrice": 1125
+			},
+			"totalPrice": 1125,
+			"id": 19
+		}
+	],
+	"categories": [
+		"marketing",
+		"backend",
+		"frontend",
+		"design"
+	]
+}

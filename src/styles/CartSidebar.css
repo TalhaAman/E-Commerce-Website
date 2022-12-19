@@ -1,0 +1,50 @@
+.cart-sidebar {
+  position: fixed;
+  width: 380px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  background: white;
+  padding: 29px 20px 20px 20px;
+  box-shadow: -1px -2px 16px rgba(127, 127, 127, 0.25);
+  display: block;
+  overflow-y: scroll;
+  }
+.no-cart {
+  display: none;
+}
+.cart-sidebar h5 {
+  display: inline;
+  margin-left: 10px;
+  font-size: 23px;
+  font-weight: 700;
+}
+.cart-sidebar-header{
+  display: flex;
+  align-items: center;
+  margin: 0px 20px 60px 20px;
+}
+.cart-sidebar-header .cross-icon {
+  margin-left: 80px;
+}
+.subtotal {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.subtotal h6{
+  color: #7F7F7F;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 125%;
+}
+.subtotal h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.subtotal h2 span {
+  font-size: 27px;
+  font-weight: 700;
+  margin-left: 5px;
+}

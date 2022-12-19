@@ -1,0 +1,29 @@
+.ticket {
+  width: 360px;
+  height: 320px;
+  margin-left: 40px;
+  margin-right: 20px;
+  box-shadow: 1px 2px 16px rgba(127, 127, 127, 0.25);
+  border-radius: 8px;
+}
+.ticket-heading h5 {
+  font-size: 23px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.ticket-price {
+  font-size: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.ticket-price span {
+  font-size: 23px;
+  margin-left: 5px;
+}
+.ticket-subtotal {
+  color: #7f7f7f;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 132px;
+  margin-top: 10px;
+} 

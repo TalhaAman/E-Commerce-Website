@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Livvic', sans-serif;
+  box-sizing: border-box;
+  color:  rgba(29, 29, 27, 1);
+  text-decoration: none;
+}
+html {
+  font-size: 10px;
+}

@@ -1,0 +1,16 @@
+
+.details-page {
+  display: block;
+  margin-right: 23px;
+  width: 40px;
+  height: 40px;
+  background-color: #1D1D1B;
+  border-radius: 6px;
+}
+.details-page img {
+  width: 32px;
+  height: 32px;
+  margin-top: 4px;
+  margin-left: 4px;
+  filter: brightness(0) invert(1);
+}

@@ -1,0 +1,48 @@
+.workshop-listing {
+  height: 100%;
+}
+.header-section {
+  display: flex;
+}
+.product-list {
+  margin-top: 60px; 
+  margin-right: 20px;
+}
+.list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  margin-bottom: 40px;
+}
+.product-list h6 {
+  margin-bottom: 40px;
+  color: rgba(127, 127, 127, 1);
+  font-size: 15px;
+  font-weight: 700;
+
+}
+.product-list h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.load-more {
+  border-bottom: 2px solid #0097CC; 
+  margin: 0px 248px 0px 700px;
+  line-height: 125%;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 55px;
+}
+.load-more p {
+  font-size: 18;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .list {
+    display: flex;
+    flex-direction: column;
+  }
+}
