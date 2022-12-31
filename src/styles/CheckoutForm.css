@@ -1,4 +1,4 @@
-.checkout-form{
+ .checkout-form{
   display: flex;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.75);
@@ -6,11 +6,11 @@
   height: 100%;
   position: fixed;
   overflow-y: scroll;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-  z-index: 2;
+  top: 0rem;
+  left: 0rem;
+  bottom: 0rem;
+  right: 0rem;
+  z-index: 3;
 }
 .checkout-none {
   display: none;
@@ -19,72 +19,169 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow-y: scroll;
+  top: 0rem;
+  left: 0rem;
+  bottom: 0rem;
+  right: 0rem;
+  z-index: 3;
   background-color: white;
-  margin: 60px 0px !important;
-  border-radius: 16px;
-  padding: 82px 94px 0px 94px;
+  margin: 0rem 0rem !important;
+  border-radius: 1.6rem;
+  padding: 8.2rem 4rem 0rem 4rem;
 }
 .checkout-form-header{
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .checkout-form-header h2 {
-  font-size: 40px;
+  font-size: 3.2rem;
   font-weight: 700;
 }
 .checkout-form-header img {
-  margin-left: 350px;
+  margin-left: 1rem;
 }
 .checkout-form-description {
-  margin-top: 10px;
-  margin-bottom: 40px;
-  max-width: 300px;
+  margin-top: 1.0rem;
+  margin-bottom: 4.0rem;
+  max-width: 30.0rem;
 }
 .checkout-form-description h6 {
   color: #7F7F7F;
-  font-size: 15px;
+  font-size: 1.35rem;
   font-weight: 600;
 }
 .form-fields .label{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
 }
 .form-fields .label h6 {
-  font-size: 15px;
+  font-size: 1.35rem;
   font-weight: 700;
 }
 .form-fields .label span {
   color: #FF392E;
-  /* border-bottom: 2px solid #FF392E; */
 }
 .form-fields .input {
   width: 100%;
-  padding: 14px 20px 13px 20px;
-  margin-bottom: 35px;
+  padding: 1.4rem 2rem 1.7rem 2.0rem;
+  margin-bottom: 3.5rem;
   border: none;
-  border-bottom: 2px solid #7F7F7F;
+  border-bottom: 0.2rem solid #7F7F7F;
   outline: none;
-  font-weight: 500px;
+  font-weight: 50.0rem;
 }
 .form-fields .input:focus{
-  border-bottom: 2px solid #0097CC;
-  /* background-color: #F2F2F2; */
+  border-bottom: 0.2rem solid #0097CC;
 }
 .form-button {
   width: 100%;
-  padding-top: 20px;
-  margin-bottom: 35px;
+  padding-top: 2.0rem;
+  margin-bottom: 3.5rem;
   border: none;
   outline: none;
-  font-weight: 500px;
+  font-weight: 50.0rem;
 }
 .checkbox-label {
   display: grid;
-  grid-template-columns: 32px auto;
-  
+  grid-template-columns: 3.2rem auto;  
 }
 .checkbox {
   font-weight: 600;
+}
+
+
+@media only screen and (min-width: 786px) {
+  .checkout-form{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    top: 0rem;
+    left: 0rem;
+    bottom: 0rem;
+    right: 0rem;
+    z-index: 3;
+  }
+  .checkout-none {
+    display: none;
+  }
+  .form-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 6.0rem 0rem !important;
+    border-radius: 1.6rem;
+    padding: 8.2rem 9.4rem 0rem 9.4rem;
+  }
+  .checkout-form-header{
+    display: flex;
+    align-items: center;
+  }
+  .checkout-form-header h2 {
+    font-size: 4.0rem;
+    font-weight: 700;
+  }
+  .checkout-form-header img {
+    margin-left: 35.0rem;
+  }
+  .checkout-form-description {
+    margin-top: 1.0rem;
+    margin-bottom: 4.0rem;
+    max-width: 30.0rem;
+  }
+  .checkout-form-description h6 {
+    color: #7F7F7F;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .form-fields .label{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  .form-fields .label h6 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .form-fields .label span {
+    color: #FF392E;
+  }
+  .form-fields .input {
+    width: 100%;
+    padding: 1.4rem 2.0rem 1.3rem 2.0rem;
+    margin-bottom: 3.5rem;
+    border: none;
+    border-bottom: 0.2rem solid #7F7F7F;
+    outline: none;
+    font-weight: 50.0rem;
+  }
+  .form-fields .input:focus{
+    border-bottom: 0.2rem solid #0097CC;
+  }
+  .form-button {
+    width: 100%;
+    padding-top: 2.0rem;
+    margin-bottom: 3.5rem;
+    border: none;
+    outline: none;
+    font-weight: 50.0rem;
+  }
+  .checkbox-label {
+    display: grid;
+    grid-template-columns: 3.2rem auto;  
+  }
+  .checkbox {
+    font-weight: 600;
+  }
 }
 

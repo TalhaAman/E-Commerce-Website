@@ -1,49 +1,88 @@
-.btn {
-  box-shadow: 1px 2px 8px 0px rgba(127, 127, 127, 0.25);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-radius: 6px;
-  border: none;
-}
-.btn p {
-  font-weight: 700;
+.btn-icon {
+  display: block;
+  justify-content: center;
 }
 .card-btn {
-  background: #FFC80C;
-  padding: 13.5px 70.5px;
-  gap: 10px;
-  font-size: 18px;
-  margin: auto; 
-  margin-bottom: 37px;
+  background-color: #FFC80C;
+  border: none;
+  border-radius: .6rem;
+  padding: .4rem;
 }
-.ticket-btn {
-  background: #FFC80C;
-  padding: 18.5px 42.5px;
-  gap: 10px;
-  font-size: 18px;
-  margin-top: 30px;
-  margin-left: 130px;
+.card-btn p {
+  display: none;
 }
 .checkout-btn{
   background: #0097CC;
+  width: 100%;
   color: white;
-  padding: 18px 108px;
-  gap: 10px;
-  font-size: 23px;
-  margin: auto;
-  margin-bottom: 37px;
+  padding: 1.8rem 0rem;
+  gap: 1rem;
+  font-size: 2.3rem;
+  border: none;
+  border-radius: .6rem;
+  margin-bottom: 3.7rem;
 }
 .checkout-btn p {
   color: white;
 }
+.checkout-btn img {
+  display: none;
+}
 .form-btn {
-  font-size: 18px;
+  font-size: 1.84rem;
+  font-weight: 700;
   background: #FFC80C;
-  padding: 18.5px 42.5px;
+  padding: 1.85rem 4.25rem;
+  border-radius: .6rem;
+  border: none;
+}
+.form-btn img {
+  display: none;
 }
 .thanks-btn {
   background: #FFC80C;
-  padding: 18.5px 42.5px;
-  font-size: 18px;
+  padding: 1.85rem 0rem;
+  width: 100%;
+  font-size: 1.84rem;
+  font-weight: 700;
+  border-radius: .6rem;
+  border: none;
 }
+.thanks-btn img {
+  display: none;
+}
+
+
+@media only screen and (min-width: 768px){
+  .card-btn {
+    background: #FFC80C;
+    padding: 1.35rem 0rem;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: auto; 
+  }
+  .card-btn img {
+    display: none;
+  }
+  .card-btn p {
+    display: block;
+  }
+  .ticket-btn {
+    background: #FFC80C;
+    padding: 1.85rem 4.25rem;
+    gap: 1rem;
+    font-size: 1.8rem;
+    margin: 3rem 3rem 0rem 13rem;
+    font-weight: 700;
+    border: none;
+    border-radius: .8rem;
+  }
+  .ticket-btn img {
+    display: none;
+  }
+  .ticket-btn p {
+    display: block;
+  }
+}
+
