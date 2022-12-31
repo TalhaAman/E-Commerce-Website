@@ -11,9 +11,6 @@ import FrontEndIcon from '../../assets/icons/frontend.svg';
 import BackendIcon from '../../assets/icons/backend.svg';
 import MarketingIcon from '../../assets/icons/marketing.svg';
 import '../../styles/ProductCard.css';
-import '../../styles/DateTime.css';
-import '../../styles/Title.css';
-import '../../styles/Price.css';
 import '../../styles/CategoryIcon.css';
 
 const ProductCard = ({item, onBtnClick}) => {
@@ -44,14 +41,14 @@ const ProductCard = ({item, onBtnClick}) => {
           }} 
         /> 
       </div>
-      
+      <div className='card-content'>
       <div className='date-time-parent'>
           <div className='date-time'>
             <img className='date-icon' src={CalenderIcon} ></img>
             <p>{moment(item.date).format('D.M.YYYY.')}</p>
           </div>
           <div className='date-time'>
-          <img className='date-icon' src={ClockIcon}></img>
+          <img className='date-icon clock' src={ClockIcon}></img>
             <p>{moment(item.date).format('hh:00')}h</p>
           </div>
       </div>
@@ -60,13 +57,17 @@ const ProductCard = ({item, onBtnClick}) => {
             <h4>{(item.title.length > 38) ? item.title.slice(0, 29) + '...' : item.title}</h4>
         </div>
       </div>
+      <div className='card-lower-section'>
       <div className='price'>
-        <h3>{item.price}<span>EUR</span></h3>
-        
+        <h3>{item.price}<span>EUR</span></h3> 
+      </div>
+      <div>
+        <Button  text='Add to Cart' classes='card' onClick={onBtnClick} item={item}/>
       </div>  
-      <Button  text='Add to Cart' classes='card' onClick={onBtnClick} item={item}/>
+      </div>
       <div className='category-icon'>
         <img src={category()}/>
+      </div>
       </div>
     </div>
   )

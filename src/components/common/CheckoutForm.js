@@ -9,7 +9,6 @@ const CheckoutForm = ({classes, onFormClose, onCheckout}) => {
   const { register, handleSubmit, formState: {errors}} = useForm();
   const onSubmit = data => { 
     onCheckout();
-    console.log(data)
   }
   
   return (
@@ -29,7 +28,7 @@ const CheckoutForm = ({classes, onFormClose, onCheckout}) => {
               <h6>First Name</h6>
               <span>{errors.firstName?.type === 'required' && 'This field is required'}</span>
             </label>
-            <input type='text' className='input' {...register('firstName', {required: true})} placeholder="Type your first name here"></input>
+            <input type='text' className='input' {...register('firstName', {required: true, pattern: /^[A-Za-z]+$/i})} placeholder="Type your first name here"></input>
           </div>
           <div>
             <label className="label">

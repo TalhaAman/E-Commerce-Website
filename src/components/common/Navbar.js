@@ -29,7 +29,7 @@ const Navbar = () => {
         <img  src={MainLogo} alt='logo'/>
       </div>
       <div className="cart-condition" onClick={() => dispatch(updateCartUI(!isCartOpen))}>
-        <img src={CartIcon} alt='cart'/>
+        <img src={CartIcon} alt='cart' current-count='1' />
         <h6>{cart}</h6>
       </div>
   </div>

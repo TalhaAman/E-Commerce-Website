@@ -7,7 +7,9 @@ const CartItem = ({item,onTrashClick, increment, decrement, quantity}) => {
 
   return (
     <div className="cart-item">
-      <img src={item.imageUrl} />
+      <div className="cart-item-img">
+        <img src={item.imageUrl} />
+      </div>
       <div className="cart-item-content">
         <div className="cart-item-content-header">
           <h4 className='cart-item-title'>{(item.title.length > 30) ? item.title.slice(0, 30) + '...' : item.title}</h4>

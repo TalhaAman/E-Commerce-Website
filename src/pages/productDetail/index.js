@@ -11,7 +11,7 @@ import DesignIcon from '../../assets/icons/design.svg';
 import FrontEndIcon from '../../assets/icons/frontend.svg';
 import BackendIcon from '../../assets/icons/backend.svg';
 import MarketingIcon from '../../assets/icons/marketing.svg';
-import ClockIcon from '../../assets/icons/clock-icon.svg';
+import ClockIcon from '../../assets/icons/clock.svg';
 import CalenderIcon from '../../assets/icons/calender.svg';
 import '../../styles/ProductDetails.css';
 
@@ -45,20 +45,16 @@ const WorkshopDetails = () => {
   return (
     <div>
       <Navbar/>
-      <div style={{display: 'flex'}}>
-        <div className='header-section'>
+      <div className="details-page">
           <div 
-            className="category" 
+            className="back-section" 
             onClick={() => {
               navigate('/',{state: {}});
             }}
             >
-            <div className="details-left-section">
               <img className="arrow" src={ArrowIcon}></img>  
               <h6 className="back">Back</h6>
-            </div>
           </div>
-        </div>
       <div className='product-details'>
         <div className="details-cover-img">
           <img 
@@ -79,7 +75,7 @@ const WorkshopDetails = () => {
                     <p>{moment(item.state.date).format('D.M.YYYY.')}</p>
                   </div>
                   <div className='date-time'>
-                    <img className='date-icon' src={ClockIcon}></img>
+                    <img className='date-icon clock' src={ClockIcon}></img>
                     <p>{moment(item.state.date).format('hh:00')}h</p>
                   </div>
                 </div>
@@ -90,7 +86,7 @@ const WorkshopDetails = () => {
           </div>
           <Ticket item={item.state}/>
         </div>
-      </div>
+      </div>  
       </div>
       <SimilarItems item={item.state} />
       <CartSidebar 
@@ -109,7 +105,7 @@ const WorkshopDetails = () => {
         }}
       />
       <Thanks classes={thanks} onClick={() => backToShop()}/>
-      <Footer />   
+    <Footer /> 
     </div>
   )
 }

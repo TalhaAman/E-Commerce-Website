@@ -60,10 +60,13 @@ const CartSidebar = ({isOpen,onClick}) => {
   return (
     <div className={isOpen ? 'cart-sidebar' : 'no-cart'}>
       <div className="cart-sidebar-header">
-        <img src={cartIcon} />
-        <h5>{`${cartLength} Workshops`}</h5>
+        <div className="cart-icon-workshops">
+          <img src={cartIcon} />
+          <h5>{`${cartLength} Workshops`}</h5>
+        </div>
         <img className="cross-icon" src={crossIcon} onClick={() => dispatch(updateCartUI(false))}/>
       </div>
+      <div className="cart-section">
       <div>
         {workshop.map(item =>{
           return (
@@ -82,7 +85,10 @@ const CartSidebar = ({isOpen,onClick}) => {
         <h6>SUBTOTAL</h6>
         <h2>{totalPrice}<span>EUR</span></h2>
       </div> 
-      <Button text='Checkout' classes='checkout' onClick={onClick}/>  
+      <div className="cart-btn">
+        <Button text='Checkout' classes='checkout' onClick={onClick}/>  
+      </div>
+      </div>
     </div>
   )
 }

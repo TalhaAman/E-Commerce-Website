@@ -1,6 +1,6 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
 
+import CartIcon from '../../assets/icons/cart-icon.svg'
 import '../../styles/Button.css';
 
 const Button = ({text, classes, onClick}) => {
@@ -11,6 +11,7 @@ const Button = ({text, classes, onClick}) => {
       onClick={onClick}
     >
       <p>{text}</p>
+      <img className="btn-icon" src={CartIcon}></img>
     </button>
   )
 }
