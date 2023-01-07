@@ -87,6 +87,7 @@
     }
     .cart-sidebar-header .cross-icon {
       margin-left: 8.0rem;
+      cursor: pointer;
     }
     .subtotal {
       margin-top: 4.0rem;
