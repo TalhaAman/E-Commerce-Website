@@ -11,7 +11,6 @@ import FrontEndIcon from '../../assets/icons/frontend.svg';
 import BackendIcon from '../../assets/icons/backend.svg';
 import MarketingIcon from '../../assets/icons/marketing.svg';
 import '../../styles/ProductCard.css';
-import '../../styles/CategoryIcon.css';
 
 const ProductCard = ({item, onBtnClick}) => {
   const navigate = useNavigate();
