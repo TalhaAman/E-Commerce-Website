@@ -3,7 +3,7 @@ import axios from "axios";
 import moment from "moment";
 import { useDispatch, useSelector } from "react-redux";
 
-import { updateCartUI, addWorkshopsToCart, initializeQuantity } from "../../Redux/cartSlice";
+import { updateCartUI, addWorkshopsToCart } from "../../Redux/cartSlice";
 import { itemsByApi } from "../../Redux/listSlice";
 import { ProductCard, Category } from "../../components/home"
 import { Navbar, CartSidebar, Footer, CheckoutForm, Thanks} from '../../components/common';

@@ -17,7 +17,7 @@ export const cartSlice = createSlice({
     },
     deleteCartWorkshop: (state, action) => {
         state.workshop = state.workshop.filter(item => {
-          return item.id != action.payload;
+          return item.id !== action.payload;
         })
     },
     updateCartUI: (state, action) => {

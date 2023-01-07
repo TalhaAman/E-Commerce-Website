@@ -1,13 +1,12 @@
 import React,{useEffect, useState} from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import { updateCartUI, deleteCartWorkshop, incrementQuantity, decrementQuantity, initializeQuantity } from "../../Redux/cartSlice";
+import { updateCartUI, deleteCartWorkshop, incrementQuantity, decrementQuantity} from "../../Redux/cartSlice";
 import cartIcon from '../../assets/icons/cart-icon.svg';
 import crossIcon from '../../assets/icons/cross.svg';
 import {CartItem, Button} from '../common'
 import '../../styles/CartSidebar.css';
 
-let num =0;
 const CartSidebar = ({isOpen,onClick}) => {
   const dispatch = useDispatch();
   const { workshop } = useSelector(state => state.cart);
@@ -61,10 +60,10 @@ const CartSidebar = ({isOpen,onClick}) => {
     <div className={isOpen ? 'cart-sidebar' : 'no-cart'}>
       <div className="cart-sidebar-header">
         <div className="cart-icon-workshops">
-          <img src={cartIcon} />
+          <img src={cartIcon} alt='cart' />
           <h5>{`${cartLength} Workshops`}</h5>
         </div>
-        <img className="cross-icon" src={crossIcon} onClick={() => dispatch(updateCartUI(false))}/>
+        <img className="cross-icon" alt="close" src={crossIcon} onClick={() => dispatch(updateCartUI(false))}/>
       </div>
       <div className="cart-section">
       <div>

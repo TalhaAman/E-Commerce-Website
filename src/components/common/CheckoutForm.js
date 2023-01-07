@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import { useForm } from 'react-hook-form';
 
 import Button from "./Button";
@@ -17,7 +17,7 @@ const CheckoutForm = ({classes, onFormClose, onCheckout}) => {
       <div className="form-box">
         <div className="checkout-form-header">
           <h2>Checkout</h2>
-          <img src={CrossIcon} onClick={onFormClose}/>
+          <img src={CrossIcon} alt='close' onClick={onFormClose}/>
         </div>
         <div className='checkout-form-description'>
           <h6>Provide valid information in below fields to proceed </h6>

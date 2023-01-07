@@ -13,19 +13,19 @@ const Category = ({onCategoryClick}) => {
       <h5>All</h5>
     </div>
     <div className='icon-text' onClick={() => onCategoryClick('design')}>
-    <img src={DesignIcon}/>
+    <img src={DesignIcon} alt='icon' />
       <h5>Design</h5>
     </div>
     <div className='icon-text' onClick={() => onCategoryClick('frontend')}>
-      <img src={FrontEndIcon} />
+      <img src={FrontEndIcon}  alt='icon' />
       <h5>Frontend</h5>
     </div>
     <div className='icon-text' onClick={() => onCategoryClick('backend')} >
-      <img  src={BackendIcon}  />
+      <img  src={BackendIcon} alt='icon' />
       <h5>Backend</h5>
     </div>
     <div className='icon-text' onClick={() => onCategoryClick('marketing')} >
-      <img  src={Marketing} />
+      <img  src={Marketing} alt='icon' />
       <h5>Marketing</h5>
     </div>
   </div>

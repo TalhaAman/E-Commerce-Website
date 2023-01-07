@@ -52,13 +52,13 @@ const WorkshopDetails = () => {
               navigate('/',{state: {}});
             }}
             >
-              <img className="arrow" src={ArrowIcon}></img>  
+              <img className="arrow" alt="icon" src={ArrowIcon}></img>  
               <h6 className="back">Back</h6>
           </div>
       <div className='product-details'>
         <div className="details-cover-img">
           <img 
-            alt='image' 
+            alt='img' 
             src={item.state.imageUrl} 
           /> 
         </div>
@@ -66,16 +66,16 @@ const WorkshopDetails = () => {
           <div className='content'>
             <div className="content-header">
               <div className="details-category">
-                <img src={categoryIcon()} />
+                <img src={categoryIcon()} alt='icon' />
               </div>
               <div>
                 <div className='date-time-parent'>
                   <div className='date-time'>
-                    <img className='date-icon' src={CalenderIcon} ></img>
+                    <img className='date-icon' alt='icon' src={CalenderIcon} ></img>
                     <p>{moment(item.state.date).format('D.M.YYYY.')}</p>
                   </div>
                   <div className='date-time'>
-                    <img className='date-icon clock' src={ClockIcon}></img>
+                    <img className='date-icon clock' alt='icon' src={ClockIcon}></img>
                     <p>{moment(item.state.date).format('hh:00')}h</p>
                   </div>
                 </div>

@@ -33,7 +33,7 @@ const ProductCard = ({item, onBtnClick}) => {
     <div className='product-card'>
       <div className='card-img'>
         <img 
-          alt='image' 
+          alt='img' 
           src={item.imageUrl} 
           onClick={() => {
             navigate('/workshop-details',{state: item})
@@ -43,11 +43,11 @@ const ProductCard = ({item, onBtnClick}) => {
       <div className='card-content'>
       <div className='date-time-parent'>
           <div className='date-time'>
-            <img className='date-icon' src={CalenderIcon} ></img>
+            <img className='date-icon'  alt='icon' src={CalenderIcon} ></img>
             <p>{moment(item.date).format('D.M.YYYY.')}</p>
           </div>
           <div className='date-time'>
-          <img className='date-icon clock' src={ClockIcon}></img>
+          <img className='date-icon clock'  alt='icon' src={ClockIcon}></img>
             <p>{moment(item.date).format('hh:00')}h</p>
           </div>
       </div>
@@ -65,7 +65,7 @@ const ProductCard = ({item, onBtnClick}) => {
       </div>  
       </div>
       <div className='category-icon'>
-        <img src={category()}/>
+        <img src={category()}  alt='icon' />
       </div>
       </div>
     </div>

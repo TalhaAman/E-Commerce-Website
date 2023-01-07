@@ -11,7 +11,7 @@ const Button = ({text, classes, onClick}) => {
       onClick={onClick}
     >
       <p>{text}</p>
-      <img className="btn-icon" src={CartIcon}></img>
+      <img className="btn-icon" alt="cart-icon" src={CartIcon}></img>
     </button>
   )
 }

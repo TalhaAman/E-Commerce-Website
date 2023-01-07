@@ -14,11 +14,11 @@ const Navbar = () => {
   const [cart, setCart] = useState('Cart is Empty');
 
   useEffect((() => {
-    if(workshop.length == 1){
+    if(workshop.length === 1){
       setCart(`${workshop.length} workshop in cart`)
     } else if(workshop.length > 1){
       setCart(`${workshop.length} workshops in cart`)
-    } else if(workshop.length == 0){
+    } else if(workshop.length === 0){
       setCart('Cart is Empty')
     }
   }),[workshop])
