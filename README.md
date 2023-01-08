@@ -1,6 +1,19 @@
 # Live Demonstartion of Project
  https://wondrous-meerkat-2b7086.netlify.app/
- 
+<h2> What's taken care of </h2>
+<ul> 
+    <li>Project structure</li> 
+    <li>general coding patterns & practices I follow</li>
+    <li>Data fetching combined with state management</li>
+    <li>Reusability and scalability</li>
+<ul>
+<h2>How to run</h2>
+<ol>
+    <li>clone the repositry</li>
+    <li>npm i</li>
+    <li>npm start</li>
+    <li>npx json-server --watch db.json<li>
+</ol>    
  <hr/>
 # Getting Started with Create React App
 
