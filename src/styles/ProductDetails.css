@@ -1,35 +1,35 @@
- .details-page {
+.details-page {
   display: flex;
   flex-direction: column;
   padding: 2rem;
   position: relative;
- }
- .back-section {
+}
+.back-section {
   display: flex;
   align-items: center;
   margin-bottom: 2rem;
- }
- .arrow {
+}
+.arrow {
   width: 3.2rem;
   height: 3.2rem;
- }
- .back {
+}
+.back {
   font-size: 1.35rem;
- }
- .details-cover-img {
+}
+.details-cover-img {
   width: 100%;
   height: 25rem;
   overflow: hidden;
-  border-radius: .8rem;
- }
- .details-cover-img img {
+  border-radius: 0.8rem;
+}
+.details-cover-img img {
   width: 100%;
   min-height: 100%;
- }
- .details-category {
-  width: 4.0rem;
-  height: 4.0rem;
-  background-color: #1D1D1B;
+}
+.details-category {
+  width: 4rem;
+  height: 4rem;
+  background-color: #1d1d1b;
   position: absolute;
   top: 30.2rem;
   left: 30.3rem;
@@ -56,7 +56,7 @@
   align-items: center;
   font-size: 1.44rem;
   font-weight: 700;
-  margin-left: 2.3rem; 
+  margin-left: 2.3rem;
 }
 .product-details .detail-title {
   font-size: 3.6rem;
@@ -70,16 +70,15 @@
   margin-top: 2rem;
 }
 
-
 @media only screen and (min-width: 768px) {
   .details-page {
     flex-direction: row;
   }
   .product-details {
     flex: 3;
-    margin-top: 6.0rem;
-    margin-right: 2.0rem;
-    margin-bottom: 8.0rem;
+    margin-top: 6rem;
+    margin-right: 2rem;
+    margin-bottom: 8rem;
     width: 100%;
   }
   .back-section {
@@ -98,12 +97,12 @@
   .category .arrow {
     margin-left: 0.5rem;
   }
-  .product-details .details{
+  .product-details .details {
     display: flex;
     justify-content: space-between;
   }
   .product-details .details .content {
-    max-width: 62.0rem;
+    max-width: 62rem;
   }
   .product-details .content-header {
     display: flex;
@@ -128,10 +127,10 @@
     line-height: 150%;
   }
   .product-details .detail-title {
-    font-size: 6.0rem;
+    font-size: 6rem;
     color: rgba(0, 151, 204, 1);
     line-height: 120%;
-    margin-bottom: 4.0rem;
+    margin-bottom: 4rem;
   }
   .product-details .price span {
     font-size: 2.3rem;
@@ -140,7 +139,7 @@
     overflow: hidden;
     height: 38.2rem;
     width: 100%;
-    margin-bottom: 4.0rem;
+    margin-bottom: 4rem;
     border-radius: 0.8rem;
   }
   .details-cover-img img {
@@ -148,10 +147,10 @@
   }
   .product-details .details-category {
     position: static;
-    width: 4.0rem;
-    height: 4.0rem;
-    background-color: #1D1D1B;
-    bottom: 25.0rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #1d1d1b;
+    bottom: 25rem;
     border-radius: 0.6rem;
   }
   .details-category img {

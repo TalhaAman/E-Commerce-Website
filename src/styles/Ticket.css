@@ -1,19 +1,19 @@
 .ticket {
-  margin-left: 4.0rem;
-  margin-right: 2.0rem;
+  margin-left: 4rem;
+  margin-right: 2rem;
   height: 32rem;
   box-shadow: 0.1rem 0.2rem 1.6rem rgba(127, 127, 127, 0.25);
   border-radius: 0.8rem;
 }
 .ticket-heading h5 {
   font-size: 2.3rem;
-  margin-left: 4.0rem;
-  margin-top: 5.0rem;
+  margin-left: 4rem;
+  margin-top: 5rem;
 }
 .ticket-price {
-  font-size: 4.0rem;
-  margin-left: 4.0rem;
-  margin-top: 2.0rem;
+  font-size: 4rem;
+  margin-left: 4rem;
+  margin-top: 2rem;
 }
 .ticket-price span {
   font-size: 2.3rem;
@@ -24,11 +24,11 @@
   font-size: 1.5rem;
   font-weight: 600;
   margin-left: 13.2rem;
-  margin-top: 1.0rem;
+  margin-top: 1rem;
   margin-bottom: 5.2rem;
-} 
+}
 
- @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .ticket {
     display: none;
     position: sticky;
@@ -36,4 +36,4 @@
     left: 0;
     z-index: 3;
   }
- }
+}

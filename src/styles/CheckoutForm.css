@@ -1,4 +1,4 @@
- .checkout-form{
+.checkout-form {
   display: flex;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.75);
@@ -33,7 +33,7 @@
   border-radius: 1.6rem;
   padding: 8.2rem 4rem 0rem 4rem;
 }
-.checkout-form-header{
+.checkout-form-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -46,16 +46,16 @@
   margin-left: 1rem;
 }
 .checkout-form-description {
-  margin-top: 1.0rem;
-  margin-bottom: 4.0rem;
-  max-width: 30.0rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  max-width: 30rem;
 }
 .checkout-form-description h6 {
-  color: #7F7F7F;
+  color: #7f7f7f;
   font-size: 1.35rem;
   font-weight: 600;
 }
-.form-fields .label{
+.form-fields .label {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.5rem;
@@ -65,39 +65,38 @@
   font-weight: 700;
 }
 .form-fields .label span {
-  color: #FF392E;
+  color: #ff392e;
 }
 .form-fields .input {
   width: 100%;
-  padding: 1.4rem 2rem 1.7rem 2.0rem;
+  padding: 1.4rem 2rem 1.7rem 2rem;
   margin-bottom: 3.5rem;
   border: none;
-  border-bottom: 0.2rem solid #7F7F7F;
+  border-bottom: 0.2rem solid #7f7f7f;
   outline: none;
-  font-weight: 50.0rem;
+  font-weight: 50rem;
 }
-.form-fields .input:focus{
-  border-bottom: 0.2rem solid #0097CC;
+.form-fields .input:focus {
+  border-bottom: 0.2rem solid #0097cc;
 }
 .form-button {
   width: 100%;
-  padding-top: 2.0rem;
+  padding-top: 2rem;
   margin-bottom: 3.5rem;
   border: none;
   outline: none;
-  font-weight: 50.0rem;
+  font-weight: 50rem;
 }
 .checkbox-label {
   display: grid;
-  grid-template-columns: 3.2rem auto;  
+  grid-template-columns: 3.2rem auto;
 }
 .checkbox {
   font-weight: 600;
 }
 
-
 @media only screen and (min-width: 786px) {
-  .checkout-form{
+  .checkout-form {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.75);
@@ -119,32 +118,32 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    margin: 6.0rem 0rem !important;
+    margin: 6rem 0rem !important;
     border-radius: 1.6rem;
     padding: 8.2rem 9.4rem 0rem 9.4rem;
   }
-  .checkout-form-header{
+  .checkout-form-header {
     display: flex;
     align-items: center;
   }
   .checkout-form-header h2 {
-    font-size: 4.0rem;
+    font-size: 4rem;
     font-weight: 700;
   }
   .checkout-form-header img {
-    margin-left: 35.0rem;
+    margin-left: 35rem;
   }
   .checkout-form-description {
-    margin-top: 1.0rem;
-    margin-bottom: 4.0rem;
-    max-width: 30.0rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    max-width: 30rem;
   }
   .checkout-form-description h6 {
-    color: #7F7F7F;
+    color: #7f7f7f;
     font-size: 1.5rem;
     font-weight: 600;
   }
-  .form-fields .label{
+  .form-fields .label {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5rem;
@@ -154,34 +153,33 @@
     font-weight: 700;
   }
   .form-fields .label span {
-    color: #FF392E;
+    color: #ff392e;
   }
   .form-fields .input {
     width: 100%;
-    padding: 1.4rem 2.0rem 1.3rem 2.0rem;
+    padding: 1.4rem 2rem 1.3rem 2rem;
     margin-bottom: 3.5rem;
     border: none;
-    border-bottom: 0.2rem solid #7F7F7F;
+    border-bottom: 0.2rem solid #7f7f7f;
     outline: none;
-    font-weight: 50.0rem;
+    font-weight: 50rem;
   }
-  .form-fields .input:focus{
-    border-bottom: 0.2rem solid #0097CC;
+  .form-fields .input:focus {
+    border-bottom: 0.2rem solid #0097cc;
   }
   .form-button {
     width: 100%;
-    padding-top: 2.0rem;
+    padding-top: 2rem;
     margin-bottom: 3.5rem;
     border: none;
     outline: none;
-    font-weight: 50.0rem;
+    font-weight: 50rem;
   }
   .checkbox-label {
     display: grid;
-    grid-template-columns: 3.2rem auto;  
+    grid-template-columns: 3.2rem auto;
   }
   .checkbox {
     font-weight: 600;
   }
 }
-

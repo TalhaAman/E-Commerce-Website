@@ -4,28 +4,27 @@
   display: flex;
   position: relative;
   background-color: white;
-  border: .1rem solid #f2f2f2;
-  border-radius: .6rem;
+  border: 0.1rem solid #f2f2f2;
+  border-radius: 0.6rem;
   overflow: hidden;
   margin-bottom: 2rem;
- }
- .card-img {
+}
+.card-img {
   flex: 1;
   min-width: 10.5rem;
   min-height: 15rem;
   overflow: hidden;
-  margin-right: .5rem;
- }
- .card-img img {
+  margin-right: 0.5rem;
+}
+.card-img img {
   height: 15rem;
   margin: 0 -50%;
- }
- .card-content {
+}
+.card-content {
   flex: 3;
   padding: 2rem;
-  
- }
- .product-card .date-time-parent {
+}
+.product-card .date-time-parent {
   display: flex;
   width: 100%;
 }
@@ -48,16 +47,16 @@
 .title {
   overflow: hidden;
   font-weight: 700;
-  color: #0097CC;
+  color: #0097cc;
   margin: 0;
   height: 4.8rem;
   width: 100%;
   overflow: hidden;
   cursor: pointer;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 .title h4 {
-  color: #0097CC;
+  color: #0097cc;
   font-size: 1.89rem;
   line-height: 125%;
 }
@@ -69,7 +68,7 @@
   font-size: 2.03rem;
   font-weight: 700;
   margin-left: 0rem;
-  margin-top: 1.0rem;
+  margin-top: 1rem;
   margin-bottom: 0rem;
 }
 .product-card .price span {
@@ -81,7 +80,7 @@
 .category-icon {
   width: 3.2rem;
   height: 3.2rem;
-  background-color: #1D1D1B;
+  background-color: #1d1d1b;
   position: absolute;
   z-index: 1;
   top: 1.3rem;
@@ -96,15 +95,14 @@
   filter: brightness(0) invert(1);
 }
 
-
 @media only screen and (min-width: 768px) {
-  .product-card{
+  .product-card {
     flex-direction: column;
     max-width: 32rem;
     height: 45rem;
     background-color: white;
     border-radius: 0.8rem;
-    border: .1rem solid #F2F2F2;
+    border: 0.1rem solid #f2f2f2;
     margin-bottom: 0;
     position: relative;
   }
@@ -113,13 +111,13 @@
     min-width: 100%;
     min-height: 18rem;
     overflow: hidden;
-    margin-right: .5rem;
-   }
+    margin-right: 0.5rem;
+  }
   .card-img img {
     width: 32rem;
     height: 18rem;
     margin: 0;
-    border-radius: .8rem .8rem 0rem 0rem;
+    border-radius: 0.8rem 0.8rem 0rem 0rem;
     cursor: pointer;
   }
   .product-card:hover {
@@ -158,13 +156,12 @@
   }
   .card-lower-section {
     flex-direction: column;
-    
   }
   .product-card .price h3 {
     font-size: 2.9rem;
     font-weight: 700;
-    margin-top: 1.0rem;
-    margin-bottom: 2.0rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
   .product-card .price span {
     font-size: 1.5rem;
@@ -172,15 +169,15 @@
     margin-left: 0.5rem;
   }
   .category-icon {
-    width: 4.0rem;
-    height: 4.0rem;
-    background-color: #1D1D1B;
+    width: 4rem;
+    height: 4rem;
+    background-color: #1d1d1b;
     position: absolute;
     z-index: 1;
-    top: 16.0rem;
-    left: 26.0rem;
-    bottom: 25.0rem;
-    right: 2.0rem;
+    top: 16rem;
+    left: 26rem;
+    bottom: 25rem;
+    right: 2rem;
     border-radius: 0.6rem;
   }
   .category-icon img {

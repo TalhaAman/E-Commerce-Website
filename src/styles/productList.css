@@ -1,19 +1,19 @@
 .product-list {
   padding: 1.4rem 2rem 3rem 2rem;
 }
-.heading h2{
+.heading h2 {
   font-size: 3.2rem;
 }
 .heading h6 {
   font-size: 1.35rem;
-  color: #7F7F7F;
+  color: #7f7f7f;
   margin-bottom: 1.8rem;
 }
 .list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center; 
+  justify-content: center;
 }
 .load {
   margin-bottom: 5.5rem;
@@ -21,7 +21,7 @@
   margin: 0 auto;
 }
 .load-more {
-  border-bottom: 0.2rem solid #0097CC; 
+  border-bottom: 0.2rem solid #0097cc;
   line-height: 125%;
   font-size: 1.8rem;
   cursor: pointer;
@@ -31,7 +31,6 @@
   font-weight: 700;
   padding-bottom: 0.5rem;
 }
-
 
 @media only screen and (min-width: 768px) {
   .header-section {

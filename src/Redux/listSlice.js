@@ -1,16 +1,16 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 export const listSlice = createSlice({
-  name:'list',
+  name: "list",
   initialState: {
-    workshopList: []
+    workshopList: [],
   },
   reducers: {
     itemsByApi: (state, action) => {
-      state.workshopList = action.payload
-    }
-  }
-}) 
+      state.workshopList = action.payload;
+    },
+  },
+});
 
-export const {itemsByApi} = listSlice.actions;
+export const { itemsByApi } = listSlice.actions;
 export default listSlice.reducer;

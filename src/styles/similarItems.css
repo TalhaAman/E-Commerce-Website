@@ -1,7 +1,7 @@
 .similar-section {
   padding: 4.3rem 2rem 1.8rem 2rem;
   background-color: #f2f2f2;
-  margin-bottom: .1rem;
+  margin-bottom: 0.1rem;
 }
 .similar-heading {
   text-align: center;
@@ -14,11 +14,11 @@
   .similar-section {
     width: 100vw;
     background-color: #f2f2f2;
-    padding: 8.0rem 0rem 8.0rem 38.0rem;
+    padding: 8rem 0rem 8rem 38rem;
     margin-bottom: 0.1rem;
   }
   .similar-heading {
-    font-size: 4.0rem;
+    font-size: 4rem;
     font-weight: 700;
     text-align: left;
   }
@@ -26,7 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 4rem;
-    margin-top: 4.0rem;
+    margin-top: 4rem;
     line-height: 125%;
   }
   .similar-none {

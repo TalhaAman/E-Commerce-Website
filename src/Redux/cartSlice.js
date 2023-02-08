@@ -1,37 +1,35 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 export const cartSlice = createSlice({
-  name:'cart',
-  initialState:{
+  name: "cart",
+  initialState: {
     workshop: [],
     isCartOpen: false,
-    quantity: []
+    quantity: [],
   },
   reducers: {
     addWorkshopsToCart: (state, action) => {
       state.workshop = [...state.workshop, action.payload];
-      
     },
     initializeQuantity: (state, action) => {
       state.workshop = action.payload;
     },
     deleteCartWorkshop: (state, action) => {
-        state.workshop = state.workshop.filter(item => {
-          return item.id !== action.payload;
-        })
+      state.workshop = state.workshop.filter((item) => {
+        return item.id !== action.payload;
+      });
     },
     updateCartUI: (state, action) => {
       state.isCartOpen = action.payload;
     },
-    incrementQuantity: (state,action) => {
+    incrementQuantity: (state, action) => {
       state.workshop = action.payload;
     },
     decrementQuantity: (state, action) => {
       state.workshop = action.payload;
-    }
-
-  } 
-})
+    },
+  },
+});
 
 export const {
   addWorkshopsToCart,
@@ -39,7 +37,7 @@ export const {
   initializeQuantity,
   updateCartUI,
   incrementQuantity,
-  decrementQuantity
+  decrementQuantity,
 } = cartSlice.actions;
 
 export default cartSlice.reducer;
